@@ -1,0 +1,172 @@
+main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.block_portfolio,
+.block_img {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  padding: 0 15px;
+  padding-bottom: 30px;
+}
+
+.img {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -3px;
+}
+
+.search {
+  display: none;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  bottom: 10%;
+  right: 10%;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.img:hover > .search {
+  display: block;
+}
+
+.icon-search {
+  position: absolute;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -9px;
+  z-index: 200000;
+}
+
+.block_portfolio p:first-child {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-top: 110px;
+}
+
+.block_portfolio p:last-child {
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-top: 14px;
+}
+
+button, 
+button:active, 
+button:focus {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+footer {
+  padding-bottom: 77px;
+  padding-top: 34px;
+}
+
+.top-footer {
+  visibility: hidden;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 2.5%;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+  
+.popup_img {
+  position: relative;
+  max-height: auto;
+  max-width: 1130px;
+  padding: 0 20px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.close-popup {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #362f2f;
+  top: 0px;
+  right: 40px;
+  z-index: 2;
+}
+ 
+.icon-cancel {
+  position: absolute;
+  font-size: 21px;
+  top: 50%;
+  left: 50%;
+  margin-left: -10.5px;
+  margin-top: -10.5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1320px) {
+  .close-popup {
+    right: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block_portfolio,
+  .block_img {
+    width: 33.333333%;
+  }
+  
+  .popup {
+    top: 25%;
+  }
+
+  .top-footer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 0px;
+  }
+
+  .block_portfolio,
+  .block_img {
+    width: 50%;
+  }
+
+  .popup_img,
+  .close-popup,
+  .img:hover > .search {
+    display: none;
+  }
+
+  footer {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .block_portfolio,
+  .block_img {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-300-normal.woff2') format('woff2'), url('robotocondensed-300-normal.woff') format('woff'), url('robotocondensed-300-normal.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-400-normal.woff2') format('woff2'), url('robotocondensed-400-normal.woff') format('woff'), url('robotocondensed-400-normal.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-700-normal.woff2') format('woff2'), url('robotocondensed-700-normal.woff') format('woff'), url('robotocondensed-700-normal.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-300-italic.woff2') format('woff2'), url('robotocondensed-300-italic.woff') format('woff'), url('robotocondensed-300-italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-400-italic.woff2') format('woff2'), url('robotocondensed-400-italic.woff') format('woff'), url('robotocondensed-400-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('robotocondensed-700-italic.woff2') format('woff2'), url('robotocondensed-700-italic.woff') format('woff'), url('robotocondensed-700-italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
