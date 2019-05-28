@@ -319,7 +319,7 @@ input[type='button'] {
   }
   .reserve-block img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .contacts-block {
     width: 100%;
